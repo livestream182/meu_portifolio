@@ -28,24 +28,40 @@
         </nav>
     </header>
     <section id="home">
-        <h1>Wellcome to my Portfolio</h1>
+        <h1>Hello</h1>
     </section>
-    <section id="about">
+
+    <section id="about" class="hidden">
         <h2>About Me</h2>
         <p>I'm treinee</p>
     </section>
-    <section id="projects">
+
+    <section id="projects" class="hidden">
         <h2>Projects</h2>
-        <div class="project1">
-            <h3>Project 1</h3>
-            <p>Describle project</p>
-        </div>
-        <div class="project2">
-            <h3>Project 2</h3>
-            <p>Describle project</p>
+        <div class="carrousel">
+            <button class="carrousel-button prev">&#10094;</button>
+            <div class="carrousel-track-container">
+                <ul class="carrousel-track">
+                    <li class="carrousel-slide current-slide">
+                        <h3>Calculator Optmizer</h3>
+                        <p>Neste projeto o objetivo é diponibilizar uma calculadora que realize todo tipo de operação de acordo com os padrões e formulas de calculo estabelecidas.</p>
+                    </li>
+                    <li class="carrousel-slide">
+                        <h3>Spring Initialize</h3>
+                        <p>Com base na documentação disponivel e nos cursos on-line realizados inicei este projeto como forma de praticar.</p>
+                    </li>
+                    <li class="carrousel-slide">
+                        <h3>Desafio Java da Massa - Prof. Isidro</h3>
+                        <p>Iniciei esse projeto para estudo da linguagem Java acompanhando as web aulas do Prof. Isidro no Youtube.</p>
+                    </li>
+                    <!-- Adicione mais projetos conforme necessário -->
+                </ul>
+            </div>
+            <button class="carrousel-button next">&#10095;</button>
         </div>
     </section>
-    <section id="contact">
+
+    <section id="contact" class="hidden">
         <h2>Contact</h2>
         <form action="https://formspree.io/f/xjvnnyll" method="POST">
             <label for="name">Name:</label>
